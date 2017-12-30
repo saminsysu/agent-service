@@ -1,1 +1,5 @@
 # agent-service
+
+对于windows，使用nssm创建系统服务；对于linux，使用SystemV或者SystemD创建系统服务，本项目仅提供windows的实现方法，linux端的实现请参考phoenix项目中monitor agent的实现
+
+其中，运行install-agent.bat即可添加系统服务，而agent.bat定义了系统服务的执行操作
